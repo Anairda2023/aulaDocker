@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const users = [
-    {nome: "Seu José", idade=94, naturalidade: "Mossoró"},
-    {nome: "Joel", idade=40, naturalidade: "São Pedro"},
-    {nome: "Maria", idade=35, naturalidade: "Macaíba"},
-    {nome: "Alê", idade=150, naturalidade: "Roma"}
+    {nome: "Seu José", idade:94, naturalidade: "Mossoró"},
+    {nome: "Joel", idade:40, naturalidade: "São Pedro"},
+    {nome: "Maria", idade:35, naturalidade: "Macaíba"},
+    {nome: "Alê", idade:150, naturalidade: "Roma"}
 ]
 
 app.get('/', (req, res)=>{
